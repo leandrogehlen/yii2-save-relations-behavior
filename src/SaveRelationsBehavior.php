@@ -706,7 +706,7 @@ class SaveRelationsBehavior extends Behavior
      * @param array $data
      * @throws InvalidConfigException
      */
-    public function loadRelations($data)
+    public function loadRelationsFromData($data)
     {
         /** @var BaseActiveRecord $owner */
         $owner = $this->owner;
